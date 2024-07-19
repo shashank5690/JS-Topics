@@ -1,4 +1,4 @@
-//Promises
+// //Promises
 
 const promsie = new Promise ((resolve,reject) =>{
     setTimeout(() => {
@@ -15,7 +15,7 @@ promsie.then(data => {
 const promise2 = new Promise((resolve,reject) => {
     setTimeout(() => {
         resolve('Data 1');
-    },2000);
+    },4000);
 });
 
 promise2.then(data => {
@@ -23,7 +23,7 @@ promise2.then(data => {
     return 'Data 2';
 }).then(data => {
     console.log(data);
-    return 'Data 3';
+    return 'Data hello';
 }).then(data => {
     console.log(data);
 })  
