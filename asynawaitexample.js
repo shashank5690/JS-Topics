@@ -33,6 +33,9 @@ async function display(){
     console.log ("we have uploaded with", response);
 }
 
-display();
+display()
 
 // download("www.xyz.com");
+
+// it is wrong as we are not returning the promise object from the download function, write function and upload function.and 
+// resolving it 
